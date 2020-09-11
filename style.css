@@ -1,0 +1,330 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    font-size:15px;
+    font-family:century gothic;
+  }
+  div, p, h1, h2, h3, h4, h5, ul, li, a, span{
+    margin:0px;
+    padding:0px;
+  }
+  .clear{
+    clear:both;
+  }
+  #conteneur-id{
+    width:100%;
+  }
+  
+  #conteneur-menu{
+  
+  }
+  .menu{
+    width:100%;
+    background-color:white;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+    margin:auto;
+    text-align:center;
+    position:fixed;
+    z-index:999;
+  }
+  .menu ul{
+    width:100%;
+    margin:auto;
+    padding:15px 0px;
+  }
+  .menu li{
+    display:inline-block;
+    padding:5px;
+  }
+  .menu a{
+    text-decoration:none;
+    color:black;
+    background-color:#DDD;
+    transition:0.4s;
+    padding:5px 25px;
+  }
+  .menu a:hover{
+    text-decoration:none;
+    color:#999;
+    background-color:#FFF;
+    transition:0.4s;
+  }
+
+  #conteneur-home{
+    width:100%;
+    background:url(https://ak.picdn.net/shutterstock/videos/30309373/thumb/8.jpg) fixed 100% no-repeat;
+    background-size:cover;
+    padding:159.5px 0px 100px 0px;
+    text-align:center;
+  }
+  .home{
+    width:100%;
+  }
+  .home h1{
+    font-weight:100;
+    font-size:50px;
+    color:#EEE;
+    padding:0px 0px 5px 0px;
+  }
+  .home h2{
+    font-weight:100;
+    font-size:30px;
+    color:#DDD;
+    text-transform:uppercase;
+  }
+
+  #conteneur-about{
+    padding:100px 0px;
+  }
+  .about{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+  }
+  .profil-photo{
+    width:50%;
+    float:left;
+  }
+  .profil-photo img{
+    width:90%;
+  }
+  .profil-text{
+    width:50%;
+    float:left;
+    position:relative;
+  }
+  .profil-text h2{
+    padding-bottom:15px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+  }
+  .profil-text p{
+  padding-bottom:75px;
+  text-align:justify;
+  }
+  .profil-text a{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    text-decoration:none;
+    color:black;
+    background-color:#DDD;
+    transition:0.4s;
+    padding:5px 25px;
+    border:1px solid white;
+  }
+  .profil-text a:hover{
+    text-decoration:none;
+    color:#999;
+    border:1px solid #999;
+    background-color:#FFF;
+    transition:0.4s;
+  }
+ 
+  #conteneur-skills{
+    padding:100px 0px;
+    background-color:#EEE;
+  }
+  .skills{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+  }
+  .title h2{
+    padding-bottom:25px;
+    font-size:25px;
+    font-weight:100;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .title p{
+  padding-bottom:75px;
+  text-align:justify;
+  width:100%;
+  margin:auto;
+  }
+  .bardiv{
+    width:100%;
+    margin:auto;
+  }
+  .bardiv h3{
+    font-size:20px;
+    padding-bottom:5px;
+  }
+  .progressbar{
+    width:100%;
+    margin:auto;
+    height:5px;
+    background-color:#AAA;
+    position:relative;
+    margin-bottom:15px;
+  }
+  .progressbar span{
+    height:5px;
+    background-color: blue;
+    z-index:888;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+  .html{
+    width:40%;
+  }
+  .css{
+    width:30%;
+  }
+  .javascript{
+    width:20%;
+  }
+  
+  #conteneur-Experiences{
+    padding:100px 0px;
+  }
+  .qualification{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+  }
+  .qualification h2{
+    padding-bottom:50px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+  }
+  .premqualification{
+    padding-left:25px;
+    padding-bottom:25px;
+  }
+  .premqualification h3{
+    font-size:20px;
+    padding-bottom:5px;
+    font-weight:100;
+  }
+  .premqualification h4{
+    font-size:17px;
+    padding-bottom:5px;
+    font-weight:100;
+    color:#999;
+  }
+  .deuxqualification{
+    padding-left:25px;
+    padding-bottom:25px;
+  }
+  .deuxqualification h3{
+    font-size:17px;
+    padding-bottom:5px;
+    font-weight:100;
+  }
+  .deuxqualification h4{
+    font-size:15px;
+    padding-bottom:5px;
+    font-weight:100;
+    color:#999;
+  }
+  #conteneur-portfolio{
+    padding:100px 0px;
+    background-color:#EEE;
+  }
+  .portfolio{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+  }
+  .portfolio h2{
+    padding-bottom:50px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+  }
+  .conteneur-portfolio h2{
+    padding-bottom:100px;
+    font-size:80px;
+    color:#000;
+    text-align:center;
+  }
+  .conteneur-miniature-left{
+    box-shadow:0 0 20px 1px rgba(0,0,0,0.25);
+    transition:.4s;
+    width:47.5%;
+    margin-right:2.5%;
+    float:left;
+  }
+  .conteneur-miniature-right{
+    box-shadow:0 0 20px 1px rgba(0,0,0,0.25);
+    transition:.4s;
+    width:47.5%;
+    margin-left:2.5%;
+    float:left;
+  }
+  .miniature-portfolio{
+    width:100%;
+    height:250px;
+  }
+  .oneport{
+    background:url(https://sobusygirls.fr/uploads/post/large/8ea5935db127d471aca0732468c159c7d1fdf02d.jpeg);
+    background-size:cover;
+  }
+  .twoport{
+    background:url(https://viago.ca/wp-content/uploads/2015/07/Plage-768x432.jpg);
+    background-size:cover;
+  }
+  .text-miniature{
+    padding:15px 30px 15px 15px;
+  }
+  .text-miniature h3{
+    font-size:25px;
+    padding-bottom:10px;
+    font-weight:100;
+  }
+  
+  .conteneur-miniature-one:hover{
+    box-shadow:0 0 20px 1px rgba(0,0,0,0.75);
+    transition:.4s;
+  }
+  #conteneur-contact{
+    padding:100px 0px;
+    background:url(https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?w=1867&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) fixed 100% no-repeat;
+    background-size:cover;
+  }
+  .contact{
+    max-width:660px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+  }
+  .contact h2{
+    padding-bottom:50px;
+    font-size:30px;
+    font-weight:100;
+    text-transform:uppercase;
+    color: darkblue;
+  }
+  .contact h3{
+    padding-bottom:50px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+    color: #000;
+  }
+    #conteneur-footer{
+    padding:10px 0px;
+    background-color:#000;
+    color:#FFF;
+    text-align:center;
+  }
+  .footer a{
+    color:#FFF;
+    text-decoration:none;
+    padding-top:50px;
+    transition:0.4s;
+  }
+  .footer a:hover{
+    color:#DDD;
+    text-decoration:none;
+    transition:0.4s;
+  }
+ 
